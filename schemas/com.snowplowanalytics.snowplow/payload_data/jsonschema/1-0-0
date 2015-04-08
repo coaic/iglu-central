@@ -169,9 +169,6 @@
 			"tr_co": {
 				"type": "string"
 			},
-			"tr_cu": {
-				"type": "string"
-			},
 			"ti_id": {
 				"type": "string"
 			},
@@ -181,9 +178,6 @@
 			"ti_nm": {
 				"type": "string"
 			},
-			"ti_na": {
-				"type": "string"
-			},
 			"ti_ca": {
 				"type": "string"
 			},
@@ -191,9 +185,6 @@
 				"type": "string"
 			},
 			"ti_qu": {
-				"type": "string"
-			},
-			"ti_cu": {
 				"type": "string"
 			},
 			"sa": {
