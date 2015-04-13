@@ -1,0 +1,19 @@
+{
+	"$schema": "http://iglu.blinkmobile.co/schemas/com.snowplowanalytics/products/jsonschema/1-0-0#",
+	"description": "Product item",
+	"self": {
+		"vendor": "com.snowplowanalytics",
+		"name": "product_item",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+
+	"type":"object",
+  "properties": {
+    "launchDate": {
+      "type":"string",
+      "format": "date-time"
+    }
+  },
+	"additionalProperties": true
+}

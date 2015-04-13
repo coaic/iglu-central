@@ -1,0 +1,19 @@
+{
+	"$schema": "http://iglu.blinkmobile.co/schemas/com.snowplowanalytics/user/jsonschema/2-0-0#",
+	"description": "Track user view",
+	"self": {
+		"vendor": "com.snowplowanalytics",
+		"name": "user_view",
+		"format": "jsonschema",
+		"version": "2-0-0"
+	},
+
+	"type":"object",
+  "properties": {
+    "userType": {
+      "type":"string"
+    }
+  },
+	"required": ["userType"],
+	"additionalProperties": false
+}
