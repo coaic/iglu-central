@@ -1,11 +1,11 @@
 {
-	"$schema": "http://iglu.blinkmobile.co/schemas/com.snowplowanalytics/page/jsonschema/1-2-1#",
+	"$schema": "http://iglu.blinkmobile.co/schemas/co.blinkmobile/page/jsonschema/1-0-0#",
 	"description": "Track page view",
 	"self": {
-		"vendor": "com.snowplowanalytics",
+		"vendor": "co.blinkmobile",
 		"name": "page_view",
 		"format": "jsonschema",
-		"version": "1-2-1"
+		"version": "1-0-0"
 	},
 
 	"type":"object",

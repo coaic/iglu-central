@@ -1,8 +1,8 @@
 {
-	"$schema": "http://iglu.blinkmobile.co/schemas/com.snowplowanalytics/products/jsonschema/1-0-0#",
+	"$schema": "http://iglu.blinkmobile.co/schemas/co.blinkmodile/products/jsonschema/1-0-0#",
 	"description": "Product item",
 	"self": {
-		"vendor": "com.snowplowanalytics",
+		"vendor": "co.blinkmodile",
 		"name": "product_item",
 		"format": "jsonschema",
 		"version": "1-0-0"

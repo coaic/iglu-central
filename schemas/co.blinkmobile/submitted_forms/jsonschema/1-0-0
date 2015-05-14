@@ -1,0 +1,19 @@
+{
+  "$schema": "http://iglu.blinkmobile.co/schemas/co.blinkmodile/submitted_form/jsonschema/1-0-0#",
+  "description": "Product item",
+  "self": {
+             "vendor": "co.blinkmodile",
+	     "name": "submitted_form",
+	     "format": "jsonschema",
+	     "version": "1-0-0"
+          },
+
+  "type":"object",
+  "properties": {
+    "submissionDeviceDateTime": {
+      "type":"string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}
