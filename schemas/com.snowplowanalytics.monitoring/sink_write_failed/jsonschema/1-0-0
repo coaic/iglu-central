@@ -1,0 +1,37 @@
+{
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"description": "Schema for a write to a sink failing",
+	"self": {
+		"vendor": "com.snowplowanalytics.monitoring",
+		"name": "sink_write_failed",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+
+	"type": "object",
+
+	"properties": {
+
+		"sink": {
+			"type": "string"
+		},
+
+		"failureCount": {
+			"type": "integer"
+		},
+
+		"initialFailureTime": {
+			"type": "number"
+		}
+
+		"lastRetryPeriod": {
+			"type": "number"
+		},
+
+		"message": {
+			"type": "string"
+		}
+	},
+
+	"additionalProperties": false
+}
